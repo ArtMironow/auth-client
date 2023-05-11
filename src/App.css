@@ -1,0 +1,452 @@
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+.card-container.card {
+  max-width: 350px !important;
+  padding: 40px 40px;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 20px 25px 30px;
+  margin: 0 auto 25px;
+  margin-top: 50px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.profile-img-card {
+  width: 96px;
+  height: 96px;
+  margin: 0 auto 10px;
+  display: block;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.navigation-pannel {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  @media (max-width: 1000px) {
+    margin: 0 auto;
+    flex-direction: column;
+  }
+}
+.userLogin {
+  display: flex;
+
+  @media (max-width: 1000px) {
+    margin: 0 auto;
+  }
+}
+
+.userPages {
+  display: flex;
+  flex-direction: row;
+
+  @media (max-width: 1000px) {
+    margin: 0 auto;
+    flex-direction: column;
+  }
+}
+/* */
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 0px 0px 10px;
+}
+.nav-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.group {
+  margin: 20px 0 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.carditem {
+  margin: 0 auto;
+  width: 500px;
+}
+.forgotpassword {
+  margin: 10px 0 0 0;
+  display: flex;
+  justify-content: end;
+  color: rgb(19, 98, 201);
+}
+
+.spinner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  height: 500px;
+  width: 100px;
+}
+
+/* BEGIN Social login box home page styles */
+.socialLogin {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.socialLoginGoogle {
+  width: 241px;
+  height: 40px;
+  border-radius: 4px;
+  background: #db3236;
+  color: white;
+  border: 0px transparent;
+  text-align: center;
+}
+
+.socialLoginFacebook {
+  width: 241px;
+  height: 40px;
+  border-radius: 4px;
+  background: #3b5998;
+  color: white;
+  border: 0px transparent;
+  text-align: center;
+  margin: 5px;
+  display: inline-block;
+}
+/* END Social login box home page styles */
+
+.container {
+  width: 100%;
+}
+
+/* BEGIN Review box home page styles */
+.review-add-item {
+  display: flex;
+  justify-content: end;
+}
+.review-container {
+  width: 100%;
+  margin: 0px auto;
+}
+.review-box {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  /*border: solid 1px;
+   border-radius: 10px; */
+  width: auto;
+
+  @media (max-width: 1000px) {
+    flex-direction: column;
+  }
+}
+
+.review-image {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  min-width: 200px;
+  height: 170px;
+  /* background-image: url(./images/review_image_2.jpg);
+  background-size: 200px; */
+  overflow: hidden;
+  margin: 10px;
+  /* object-fit: contain; */
+}
+
+.review-image-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 200px;
+  min-width: 200px;
+  height: 170px;
+  object-fit: contain;
+  overflow: hidden;
+}
+
+.review-content {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  width: 100%;
+}
+
+/* .review-nickname {
+} */
+
+.review-title {
+  width: fit-content;
+}
+.review-title-href {
+  text-decoration: none;
+  color: black;
+}
+
+.review-description {
+  width: auto;
+  height: 52px;
+  overflow: hidden;
+
+  @media (max-width: 1000px) {
+    height: auto;
+  }
+}
+
+.review-rank {
+  display: flex;
+  flex-direction: row;
+}
+
+.review-likes {
+  display: flex;
+  flex-direction: row;
+}
+.review-likes-image {
+  width: 20px;
+  height: 20px;
+  background-image: url(./images/like.png);
+  background-size: 20px;
+  overflow: hidden;
+}
+.review-likes-text {
+  margin: 0px 0px 0px 10px;
+}
+.review-rating {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 0px 0px 30px;
+}
+.review-rating-image {
+  width: 25px;
+  height: 25px;
+  background-image: url(./images/star.svg);
+  background-size: 25px;
+  overflow: hidden;
+}
+.review-rating-text {
+  margin: 0px 0px 0px 5px;
+}
+.review-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  @media (max-width: 1000px) {
+    flex-direction: row;
+    justify-content: start;
+  }
+}
+
+.btn {
+  @media (max-width: 1000px) {
+    margin: 0px 10px;
+  }
+}
+
+/* img:before {
+  background-image: url(./images/review_image_2.jpg);
+} */
+/* END Review box home page styles */
+
+/* BEGIN Review editor myReviewList page styles */
+.review-editor-body {
+  display: flex;
+  flex-direction: row;
+  height: 500px;
+
+  @media (max-width: 1000px) {
+    flex-direction: column;
+    margin: o auto;
+  }
+}
+.review-editor-image {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+.review-editor-image-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+  min-width: 300px;
+  height: 300px;
+  object-fit: contain;
+  overflow: hidden;
+}
+.review-editor-image-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin: 20px 0px 0px 0px;
+}
+.review-editor-content {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 0px 0px 20px;
+  width: 100%;
+
+  @media (max-width: 1000px) {
+    width: auto;
+    height: auto;
+  }
+}
+/* input[type="file"]::file-selector-button {
+  text: none;
+} */
+
+.review-editor-text {
+  display: flex;
+  flex-direction: column;
+}
+.review-editor-area {
+  height: 250px;
+}
+/* END Review editor myReviewList page styles */
+
+/* BEGIN Review single page styles */
+.review-content-container {
+  width: 100%;
+  margin: 0px auto;
+  /* width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column; */
+}
+.review-image-and-description-container {
+  width: 100%;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: row;
+}
+.review-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  border-style: groove;
+  border-radius: 10px;
+}
+.review-photo {
+  width: 280px;
+  height: 280px;
+  object-fit: contain;
+}
+
+.review-global-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: auto;
+  height: 300px;
+  margin: 0px 0px 0px 15px;
+}
+/* .review-page-title {
+}
+.review-page-theme {
+} */
+.review-page-description {
+  height: 144px;
+  overflow: hidden;
+}
+/* .review-page-author {
+}
+.review-page-text-container {
+}
+.review-page-text {
+} */
+.review-rating-and-likes-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+/* .review-likes {
+}
+.review-rating {
+}
+.review-comments-container {
+}
+.review-comments {
+}
+.review-page-text {
+} */
+.user-rating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.general-review-rating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.review-likes-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+.review-likes-counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* END Review single page styles */
+
+.fa {
+  font-size: 30px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.fa-liked {
+  color: rgb(15, 173, 139);
+}
+
+/* .fa:hover {
+  color: rgb(15, 97, 173);
+} */
+
+/* BEGIN Star styles */
+button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.on {
+  color: #000;
+}
+.off {
+  color: #ccc;
+}
+.star {
+  font-size: 24px;
+}
+/* END Star styles */
+
+.not-found {
+  display: flex;
+  width: 151px;
+  margin: 10px auto;
+}
